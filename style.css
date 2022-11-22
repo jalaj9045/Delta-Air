@@ -981,6 +981,161 @@ separator, .testimonial-two, .exp-separator-inner {
       font-size: 13px;
   }
 }
+
+
+
+/* Partners Page CSS  */
+#about-section {
+  position: relative;
+}
+
+.blockabout {
+  padding: 20px;
+  background: white;
+}
+
+.blockabout-inner {
+  padding: 30px;
+  border: 3px solid #800000;
+}
+
+.sosmed-horizontal a i {
+  border: 1px solid #070707;
+  border-radius: 50%;
+  color: #070707;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  margin: auto 3px;
+  font-size: 15px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.rey-btn {
+  border: 2px solid #070707;
+  padding: 10px 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+
+
+
+
+
+/* contact US  */
+.form-control {
+  box-shadow: none !important;
+  outline: none !important;
+  border: 2px solid #cecece;
+  height: 38px;
+}
+.form-control:hover ,.form-control:focus{
+  border-color: #97a0af;
+}
+
+
+.error {
+  margin: 8px 0px;
+  display: none;
+  color: red;
+}
+#ajaxsuccess {
+  font-size: 16px;
+  width: 100%;
+  display: none;
+  clear: both;
+  margin: 8px 0px;
+}
+.con_sub_text {
+  margin: 20px 0px;
+  font-size: 15px;
+}
+
+.contact-detail-box {
+  margin-bottom: 50px;
+}
+
+.contact-detail-box address {
+  font-size: 14px;
+}
+.contact-map {
+  background-color: #ededed;
+}
+.submitbtn{
+  padding: 5px 30px;
+  background-color: #800000;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.contact-detail-box > i,
+.contact-detail-box > h4{
+  color: #800000;
+}
+/*======= Responsive ======*/
+@media (min-width: 768px) {
+    .nav-custom-left {
+		margin-left: 5%;
+	}
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .contact-page .col-sm-6 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-custom {
+        -moz-box-shadow: 0 2px 2px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.1);
+    box-shadow: 0 2px 2px rgba(0,0,0,.1);
+  }
+  .screen-space {
+    margin: 0px auto 50px auto;
+  }
+  .feature-detail {
+    padding: 0px 0px 50px 30px !important;
+  }
+  .footer h5 {
+    margin-top: 30px;
+  }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .blog-wrapper .blog-item {
+    width: 50%;
+  }
+  .navbar-custom .navbar-nav li a {
+    font-size: 12px;
+  }
+  .blog-detail-box {
+  padding-right: 0px;
+}
+}
+@media only screen and (min-width: 767px) and (max-width: 991px){
+  
+}
+@media (max-width: 767px) {
+  .blog-wrapper .blog-item {
+    width: 100%;
+  }
+  .logo {
+    margin-top: 7px;
+  }
+  .blog-detail-box {
+  padding-right: 0px;
+}
+}
 /* ==========================================
     CUSTOM UTILS CLASSES
   ========================================== */
@@ -994,6 +1149,17 @@ separator, .testimonial-two, .exp-separator-inner {
         bottom: 0px;
         z-index: 1100;
     }
+    .TESTIMONIAL {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+  .itemcontent {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 0;
+}
     .aboutheader{
       height: auto;
       padding: 30px 0px;
@@ -1016,4 +1182,14 @@ separator, .testimonial-two, .exp-separator-inner {
   .price-box{
     margin: 10px 0px;
   }
+
+  /* Course Page REsponisve  */
+  .ftco-section {
+    padding: 0;
+    background: brown;
+    position: relative;
+}
+.cardsec {
+  padding: 25px 0px;
+}
   }
